@@ -132,10 +132,10 @@ img {
         margin: 50px 20px;
     }
     main {
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(5, auto); 
+        grid-template-columns: 330px; 
+        grid-template-rows: repeat(5, auto);
         grid-auto-rows: auto;
-        gap: 10px 10px; 
+        gap: 10px; 
         grid-template-areas: 
           "daniel"
           "jonathan"
@@ -146,7 +146,11 @@ img {
     .card {
         padding: 25px;
     }
+    .card p {
+        margin: 15px auto;
+    }
 }
+
 
 .attribution { font-size: 11px; text-align: center; margin-top: 50px}
 .attribution a { color: hsl(228, 45%, 44%); }
